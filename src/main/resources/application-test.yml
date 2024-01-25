@@ -1,0 +1,7 @@
+# 아래 설정들은 운영환경, 테스트환경, 개발환경에서 공통으로 사용된다.
+spring:
+  datasource:
+    url: jdbc:h2:mem:rest2023_test;MODE=MYSQL
+  jpa:
+    hibernate:
+      ddl-auto: create
